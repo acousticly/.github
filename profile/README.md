@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 #### Blackjack now has 5 new gamerules: 
 - Double-Down
 - Split
-- Soft hands (Aces)
+- Soft hands (Aces can be 1 or 11)
 ### Changed:
 - Camera shop item buffed
 - Mine command now accepts responses from everyone, so somebody can steal your guess
