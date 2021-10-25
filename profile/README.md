@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 ## [0.9.6](https://acoustic.to/vote) - 2021-10-24
 ### Added:
-#### Blackjack now has 5 new gamerules: 
+#### Blackjack now has new gamerules: 
 - Double-Down
 - Split
 - Soft hands (Aces can be 1 or 11)
