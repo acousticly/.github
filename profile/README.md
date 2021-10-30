@@ -1,6 +1,6 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-## [0.9.6](https://acoustic.to/vote) - 2021-10-24
+## [0.9.6](https://docs.acoustic.to/blog/2021/10/29/october-update) - 2021-10-24
 ### Added:
 #### Blackjack now has new gamerules: 
 - Double-Down
