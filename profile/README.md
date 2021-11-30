@@ -1,6 +1,6 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-## 0.9.6 (Music) - 2021-11-29
+## [0.9.6](https://docs.acoustic.to/blog/2021/11/29/november-update) (Music) - 2021-11-29
 ### Added:
 #### Music has new commands :partying_face:
 - `playnext` When you really want to show your friends a funny video that just can't wait. The playnext command moves songs to the front of the queue **without** skipping the currently playing song.
