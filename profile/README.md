@@ -1,23 +1,51 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-## [0.9.6](https://docs.acoustic.to/blog/2021/11/29/november-update) (Music) - 2021-11-29
+## [0.9.7](https://docs.acoustic.to/blog/2022/01/08/january-update) (Music) - 2021-01-08
 ### Added:
-#### Music has new commands :partying_face:
-- `playnext` When you really want to show your friends a funny video that just can't wait. The playnext command moves songs to the front of the queue **without** skipping the currently playing song.
-- `shuffleplay` Are you getting tired of hearing the same songs when you queue a playlist on Acoustic? Well no more. Now you can auto-shuffle playlists and queue them instantly! :star_struck:
-- `clearqueue` This is a long-awaited command, and it's finally here! It clears the queue **without** disconnecting the bot. How revolutionary and innovative...
-#### `Lyrics` command gets a full rework with buttons support
-And it looks pretty awesome, if I do say so myself <br>
-![Lyrics lookin' dope af](https://cdn.jevestobs.dev/image_50.png)
+
+#### Favorites are coming to Acoustic:
+
+This introduces an improved way to listen to your favorite songs!
+
+![favorites button on player start](https://cdn.jevestobs.dev/1641678626.png)
+
+#### You can easily view your favorites using the `~favorites` command
+
+![Viewing your favorites](https://cdn.jevestobs.dev/1641679616.png)
+
+<br />
+
+#### `Play` command gets **autocomplete** ✨
+
+Do you hate typing out the exact song you want? With autocomplete, you can find your song in on average **6 characters or fewer** 🤯
+
+<br />
+
+![Autcomplete in action](https://cdn.jevestobs.dev/1641680364.png)
+
 ### Changed:
-- Some wording was messed with, and instructions should be clearer
-- Song searches should be more accurate on average
-- Viewing your custom playlist now prefetches the hyperlinks so you can visualize the playlist's song makeup
-- Thumbnail art for Soundcloud 
-- Database migration from MongoDB to ScyllaDB (+55% OPS read/write)
-- Updated [privacy policy](https://acoustic.to/privacy) and [terms](https://acoustic.to/terms)
+
+- Lowered cooldowns on all commands
+- Greatly improved Spotify song searching
+- Switched search engine from YouTube Music to YouTube
+- Added custom id's to every playlists for upcoming features 👀
+- Some minor tweaks to the UI
+- Flow for creating playlists is easier now
+- Added a quick link to the support server when a command errors
+- Improved lyrics searching
+- Use Spotify's API for song info when playing a song/playlist from Spotify
 
 ### Fixed:
-- `skip` command interaction failed
-- `ping` command inaccuracies
-- `loop` command failure when skipping
+
+- Fixed readable time being null on Apple Music fetch
+- Fix command replies for `playnext` `pause` `resume` & `shuffeplay`
+- Fixed a bug where searching would allow you to add more songs to your custom playlist without premium
+- Fixed Twitch tracks not working after a `voiceStateUpdate`
+
+### Server Changes:
+
+##### Berk was kind enough to design us a new banner, and I must say it looks amazing
+
+Go check out [his server](https://discord.gg/h6aE2WxYJu) if you want to support him for helping us out. 😊
+
+![Server changes](https://cdn.discordapp.com/attachments/832707005780459551/929196376393408512/Acoustic_banner_1_3.png)
