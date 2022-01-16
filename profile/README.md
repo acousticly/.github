@@ -46,6 +46,6 @@ Do you hate typing out the exact song you want? With autocomplete, you can find 
 
 ##### Berk was kind enough to design us a new banner, and I must say it looks amazing
 
-Go check out [his server](https://discord.gg/h6aE2WxYJu) if you want to support him for helping us out. 😊
+Go check out [his server](https://discord.gg/sharecodes) if you want to support him for helping us out. 😊
 
 ![Server changes](https://cdn.discordapp.com/attachments/832707005780459551/929196376393408512/Acoustic_banner_1_3.png)
